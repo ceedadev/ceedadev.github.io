@@ -4,7 +4,8 @@ import "./App.css";
 
 import NavigationBar from "./components/Navigation";
 import SkillPage from "./pages/SkillPage";
-import FooterComponent from "./components/Footer";
+import ContactPage from "./pages/ContactPage";
+import FooterPage from "./pages/FooterPage";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <h1>Hello World</h1>
       </div>
       <SkillPage />
-      <FooterComponent />
+      <ContactPage />
+      <FooterPage />
     </Flowbite>
   );
 }
